@@ -1,11 +1,11 @@
-import ReactMapGL from "react-map-gl";
 import {useState,useRef,setS} from "react";
 import {Row, Col, Container} from "react-bootstrap";
 import Geocoder from "react-map-gl-geocoder";
 import 'react-map-gl-geocoder/dist/mapbox-gl-geocoder.css'
-
-
-
+import ReactMapGL, { Marker } from 'react-map-gl';
+import { ArrowRight } from 'react-bootstrap-icons';
+import * as data from './data.json';
+import './App.css';
 
 function App() {
   
@@ -57,8 +57,6 @@ function App() {
         </h1>
       </div>
     </div>
-  
- 
   );
 }
 
