@@ -3,12 +3,14 @@
     {
       "key": 1,
       "longitude": 1.33,
-      "latitude": 35.369
+      "latitude": 35.369,
+      "status": 1
     },
     {
       "key": 2,
       "longitude": 1.34,
-      "latitude": 35.369
+      "latitude": 35.369,
+      "status": 0
     }
   ]
 }

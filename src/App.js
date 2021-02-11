@@ -1,6 +1,6 @@
 import ReactMapGL, { Marker } from 'react-map-gl';
 import { useState } from 'react';
-import { ArrowRight } from 'react-bootstrap-icons';
+import { GeoFill } from 'react-bootstrap-icons';
 import * as data from './data.json';
 import './App.css';
 
@@ -23,7 +23,7 @@ function App() {
       >
         {data.projects.map(({ key, longitude, latitude }) => (
           <Marker key={key} latitude={latitude} longitude={longitude}>
-            <ArrowRight color="white" />
+            <GeoFill color="red" />
           </Marker>
         ))}
       </ReactMapGL>
