@@ -15,3 +15,6 @@ Mapbox est une entreprise américaine spécialisée dans la cartographie en lign
 
 ## Geocoder : 
 ### Barre de recherche associée avec la carte integrée. https://www.npmjs.com/package/react-map-gl-geocoder, elle est aussi parametrée avec un reference d'une carte , ecouteur d'evenement du changement de l'etat, et un mapboxApiAccessToken
+
+## Marker :  Affichage d'un element sur la carte , à l'aide de coordonnés  
+## Popup : Affichage d'un popup qui va contenir des informations sur les projets  
