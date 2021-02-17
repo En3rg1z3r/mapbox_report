@@ -2,6 +2,10 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+<<<<<<< HEAD
+=======
+import BootstrapDemo from './BootstrapDemo';
+>>>>>>> 3d18ad778dd37ab49e0730266b2fa2d3aa4fd7a3
 import reportWebVitals from './reportWebVitals';
 
 ReactDOM.render(
